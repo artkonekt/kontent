@@ -1,0 +1,24 @@
+{
+    "name": "konekt/kontent",
+    "description": "Kontent is a simple CMF plugin/component for PHP applications",
+    "type": "library",
+    "minimum-stability": "stable",
+    "keywords": ["CMF", "CMS"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Attila Fulop",
+            "homepage": "https://github.com/fulopattila122"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/artkonekt/kontent"
+    },
+    "require": {
+        "php": ">=5.5.9",
+        "nesbot/carbon": "~1.21"
+    },
+    "autoload": {
+        "psr-4": { "Konekt\\Kontent\\": "src"}
+    }
+}

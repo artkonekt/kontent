@@ -44,10 +44,17 @@ interface ContentInterface
     public function getRank();
 
     /**
-     * @param int $rank
+     * Returns the date the element should be published at (after)
      *
-     * @return ContentInterface
+     * @return \DateTime
      */
-    public function setRank($rank);
+    public function getPublishAt();
+
+    /**
+     * Returns the date the element should be hidden/unpublished at (after)
+     *
+     * @return \DateTime
+     */
+    public function getHideAt();
 
 }
